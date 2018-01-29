@@ -1,4 +1,4 @@
-# mean-app-auth
+# MEAN Authentication API 
 
 API for registering users with mongodb and authentication using a JWT(Json Web Token).
 

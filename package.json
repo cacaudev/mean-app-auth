@@ -20,14 +20,7 @@
   "devDependencies": {
     "nodemon": "*"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cacaudev/mean-app-auth.git"
-  },
   "author": "cacaudev",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cacaudev/mean-app-auth/issues"
-  },
   "homepage": "https://github.com/cacaudev/mean-app-auth#readme"
 }
