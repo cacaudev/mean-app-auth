@@ -20,6 +20,10 @@
   "devDependencies": {
     "nodemon": "*"
   },
+  "engines": {
+    "node": "6.2.0",
+    "npm":"3.10.10"
+  },
   "author": "cacaudev",
   "license": "ISC",
   "homepage": "https://github.com/cacaudev/mean-app-auth#readme"
