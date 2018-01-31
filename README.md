@@ -4,6 +4,8 @@ API for registering users with mongodb and authentication using a JWT(Json Web T
 
   Uses:
   - Passport, JWT and JWT Strategy
+
+  Deployed To: http://mean-app-angular.herokuapp.com
   
 # How JSON Web Token Work
   
