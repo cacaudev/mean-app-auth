@@ -1,9 +1,10 @@
 # MEAN Authentication API 
 
 API for registering users with mongodb and authentication using a JWT(Json Web Token).
-
-  Uses:
+    Uses:
+  - MongoDB(mLab for testing), Express, Angular and NodeJS 
   - Passport, JWT and JWT Strategy
+  - CORS
 
   Deployed To: http://mean-app-angular.herokuapp.com
   
@@ -21,3 +22,15 @@ API for registering users with mongodb and authentication using a JWT(Json Web T
   As JWTs are self-contained, all the necessary information is there, reducing the need to go back and forth to the database.
 
   Source: https://ponyfoo.com/articles/json-web-tokens-vs-session-cookies
+
+# How CORS Work
+
+  Cross-origin resource sharing (CORS) allows AJAX requests to skip the Same-origin policy and access resources from remote hosts.
+  CORS exists for security reasons and to limit which resources a browser can gain access to, from another website. Let’s say our site exists at http://someexampledomain.com and we want the JavaScript files on that site to access http://anotherdomain.com, we can’t do that unless the server at http://anotherdomain.com allows it.
+
+  ### app.js
+    var express = require('express');
+    var cors = require('cors');
+    var app = express();
+
+    app.use(cors());

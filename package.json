@@ -8,22 +8,21 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "express":"*",
-    "mongoose":"*",
-    "bcryptjs":"*",
-    "cors":"*",
-    "jsonwebtoken": "*",
+    "bcryptjs": "*",
     "body-parser": "*",
-    "passport":"*",
-    "passport-jwt":"*",
-    "serve-favicon": "~2.4.5"
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*"
   },
   "devDependencies": {
     "nodemon": "*"
   },
   "engines": {
     "node": "6.2.0",
-    "npm":"3.10.10"
+    "npm": "3.10.10"
   },
   "keywords": [
     "example",
@@ -33,6 +32,5 @@
   ],
   "private": true,
   "author": "cacaudev",
-  "license": "ISC",
   "homepage": "https://github.com/cacaudev/mean-app-auth#readme"
 }
